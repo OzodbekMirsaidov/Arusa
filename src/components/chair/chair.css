@@ -1,0 +1,30 @@
+
+.chair {
+    margin-top: -350px;
+    display: flex;
+    width: 100%;
+    background: #384353;
+    gap: 70px;
+}
+
+.chair-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 100px;
+    color:  white;
+}
+
+.chair-text h1 {
+    font-size: 30px;
+}
+
+.chair-text p {
+    width: 550px;
+    color: #DFDEDB;
+}
+
+.chair-text h4 {
+    font-size: 15px;
+}

@@ -1,0 +1,50 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.category-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.category-title h1 {
+    font-size: 60px;
+    margin-top: 200px;
+}
+
+.category-title span {
+    font-size: 18px;
+}
+
+.category-title p {
+    width: 660px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.category-imgs {
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+.category-img {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bacground-img {
+    background: url(Screenshot\ 2022-09-06\ at\ 20.04\ 3.png);
+    width: 100%;
+    height: 650px;
+}
+
+.bacground-img img {
+    padding: 50px 37%;
+}

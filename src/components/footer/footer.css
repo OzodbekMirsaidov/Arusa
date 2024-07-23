@@ -1,0 +1,51 @@
+.footer {
+    background: #384353;
+    padding: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 250px;
+
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-text a:hover {
+    color: rgb(204, 198, 198);
+}
+.footer-text a:active {
+    color: white;
+}
+
+
+.footer-img {
+    margin-top: 150px;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer-title p {
+    border:  1px solid white;
+    width: 100%;
+}
+
+

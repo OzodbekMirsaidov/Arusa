@@ -1,0 +1,25 @@
+
+.cards {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 500px;
+}
+
+.card h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+
+.card p {
+    margin-top: 40px;
+}
+
+.card h4 {
+    margin-top: 40px;
+}
