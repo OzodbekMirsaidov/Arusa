@@ -1,6 +1,6 @@
-
 .lookbook {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 100px 150px;
     width: 100%;
     background: #384353;
@@ -62,3 +62,24 @@
     color: white;
 }
 
+
+/* lookbook media */
+
+
+@media (max-width:1592px) {
+    .lookbook {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+    .lookbook-text p {
+            width: 400px;
+            margin-left: 70px;
+    }
+
+    .item {
+        margin-top: 50px;
+    }
+    
+}

@@ -23,3 +23,14 @@
 .card h4 {
     margin-top: 40px;
 }
+
+/* cards media */
+
+@media (max-width:1592px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 350px;
+    }
+}
+

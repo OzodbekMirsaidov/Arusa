@@ -8,6 +8,7 @@ import aboutImg5 from "./Rectangle 539.png"
 import aboutImg6 from "./Rectangle 542.png"
 const About = () => {
     return (
+        
         <section className='about'>
 
                 <img src={aboutImg1} alt="aboutImg1" />
@@ -29,3 +30,4 @@ const About = () => {
 }
 
 export default About
+

@@ -6,7 +6,7 @@ const Header = () => {
 
         <header>
             <div className="logo">
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
                 <h4>SHOP</h4>
             </div>
 
@@ -28,5 +28,6 @@ const Header = () => {
         </div>
     )
 }
+
 
 export default Header

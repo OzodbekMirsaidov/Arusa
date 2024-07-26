@@ -48,3 +48,13 @@
     text-align: center;
     color: #323334;
 }
+
+/* articles media */
+
+@media (max-width:1592px) {
+    .articles-texts{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+}

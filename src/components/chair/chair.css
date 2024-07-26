@@ -1,7 +1,9 @@
 
 .chair {
     margin-top: -350px;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     background: #384353;
     gap: 70px;
@@ -27,4 +29,17 @@
 
 .chair-text h4 {
     font-size: 15px;
+}
+
+
+/* chair media */ 
+
+@media (max-width:1592px) {
+
+    .chair {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 200px;
+    }
+
 }

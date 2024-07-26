@@ -18,3 +18,4 @@ const Chair = () => {
 }
 
 export default Chair
+

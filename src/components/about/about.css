@@ -80,3 +80,42 @@
     top: 92%;
     left: 66%;  
 }
+
+
+
+
+/* about media */
+
+@media (max-width:1592px) {
+    .about img:nth-child(1) {
+        width: 100px;
+        top: 100%;
+    }
+    .about img:nth-child(2) {
+        width: 100px;
+        left: 0%;
+        top: 35%;
+    }
+    .about img:nth-child(3) {
+        width: 280px;
+        left: 7%;
+        top: -65%;
+    }
+    .about img:nth-child(4) {
+        top: -40%;
+        left: 84%;
+    }
+    .about img:nth-child(5) {
+        width: 100px;
+        left: 92%;
+    }
+    .about img:nth-child(6) {
+        top: 100%;
+        left: 75%;
+    }
+
+    .about-text {
+        margin-left: -100px;
+    }
+  
+}

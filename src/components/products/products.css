@@ -21,7 +21,8 @@
 
 
 .products-cards {
-    display: flex;
+     display: grid; 
+     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin-top: 40px;
 }
@@ -54,4 +55,17 @@
 .products-title-shop p {
     width: 100%;
     border:  1px solid #ddd;
+}
+
+
+/* product media */
+
+@media (max-width:1592px) {
+
+.products-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 }

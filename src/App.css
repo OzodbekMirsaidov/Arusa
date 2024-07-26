@@ -4,3 +4,9 @@
     margin: 0 auto;
     background: white;
 }
+
+@media (max-width:1592px) {
+    .wrapper {
+        width: 1200px;
+    }
+}
