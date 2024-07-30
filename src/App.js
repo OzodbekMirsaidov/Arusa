@@ -11,6 +11,7 @@ import Articles from './components/articles/Articles';
 import Cards from './components/cards/Cards';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+
 function App() {
   return (
     <div className="wrapper">

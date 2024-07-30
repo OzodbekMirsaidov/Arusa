@@ -16,13 +16,15 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
+
+
 
 .logo i {
     font-size: 20px;
     color: white;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
 .logo i:hover {
@@ -32,6 +34,8 @@ header {
 .logo i:active {
     color: white;
 }
+
+
 
 .logo h4 {
     font-size: 20px;
@@ -89,3 +93,65 @@ header>h1 {
 
 
 /* header media  */
+
+
+@media (max-width:1544px) {
+
+   header {
+    padding: 20px 220px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: white;
+    transition: left 0.3s ease;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    padding: 15px 20px;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
